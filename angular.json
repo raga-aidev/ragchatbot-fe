@@ -34,8 +34,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "2MB",
+                  "maximumError": "6MB"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -43,7 +43,10 @@
                   "maximumError": "4kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "allowedCommonJsDependencies": [
+                "plotly.js-dist-min"
+              ]
             },
             "development": {
               "optimization": false,
