@@ -369,8 +369,7 @@ export class GraphRendererComponent implements OnInit, OnChanges, OnDestroy {
               line: {
                 color,
                 width: 3,
-                shape: 'spline',
-                smoothing: 1.1
+                shape: 'linear'
               },
               marker: {
                 size: 7,
@@ -396,8 +395,7 @@ export class GraphRendererComponent implements OnInit, OnChanges, OnDestroy {
             line: {
               color: primaryColorSolid,
               width: 3,
-              shape: 'spline',
-              smoothing: 1.3
+              shape: 'linear'
             },
             marker: {
               size: 8,
